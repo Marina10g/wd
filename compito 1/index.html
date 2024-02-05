@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Spectral:wght@500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Medium</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="container">
+                <!-- Medium Logo -->
+                <div class="flex align-center space-between">
+                    <svg viewBox="0 0 3940 610" height="25">
+                        <path
+                            d="M594.79 308.2c0 163.76-131.85 296.52-294.5 296.52S5.8 472 5.8 308.2 137.65 11.69 300.29 11.69s294.5 132.75 294.5 296.51M917.86 308.2c0 154.16-65.93 279.12-147.25 279.12s-147.25-125-147.25-279.12S689.29 29.08 770.61 29.08s147.25 125 147.25 279.12M1050 308.2c0 138.12-23.19 250.08-51.79 250.08s-51.79-112-51.79-250.08 23.19-250.08 51.8-250.08S1050 170.09 1050 308.2M1862.77 37.4l.82-.18v-6.35h-167.48l-155.51 365.5-155.51-365.5h-180.48v6.35l.81.18c30.57 6.9 46.09 17.19 46.09 54.3v434.45c0 37.11-15.58 47.4-46.15 54.3l-.81.18V587H1327v-6.35l-.81-.18c-30.57-6.9-46.09-17.19-46.09-54.3V116.9L1479.87 587h11.33l205.59-483.21V536.9c-2.62 29.31-18 38.36-45.68 44.61l-.82.19v6.3h213.3v-6.3l-.82-.19c-27.71-6.25-43.46-15.3-46.08-44.61l-.14-445.2h.14c0-37.11 15.52-47.4 46.08-54.3m97.43 287.8c3.49-78.06 31.52-134.4 78.56-135.37 14.51.24 26.68 5 36.14 14.16 20.1 19.51 29.55 60.28 28.09 121.21zm-2.11 22h250v-1.05c-.71-59.69-18-106.12-51.34-138-28.82-27.55-71.49-42.71-116.31-42.71h-1c-23.26 0-51.79 5.64-72.09 15.86-23.11 10.7-43.49 26.7-60.45 47.7-27.3 33.83-43.84 79.55-47.86 130.93-.13 1.54-.24 3.08-.35 4.62s-.18 2.92-.25 4.39a332.64 332.64 0 0 0-.36 21.69C1860.79 507 1923.65 600 2035.3 600c98 0 155.07-71.64 169.3-167.8l-7.19-2.53c-25 51.68-69.9 83-121 79.18-69.76-5.22-123.2-75.95-118.35-161.63m532.69 157.68c-8.2 19.45-25.31 30.15-48.24 30.15s-43.89-15.74-58.78-44.34c-16-30.7-24.42-74.1-24.42-125.51 0-107 33.28-176.21 84.79-176.21 21.57 0 38.55 10.7 46.65 29.37zm165.84 76.28c-30.57-7.23-46.09-18-46.09-57V5.28L2424.77 60v6.7l1.14-.09c25.62-2.07 43 1.47 53.09 10.79 7.9 7.3 11.75 18.5 11.75 34.26v71.14c-18.31-11.69-40.09-17.38-66.52-17.38-53.6 0-102.59 22.57-137.92 63.56-36.83 42.72-56.3 101.1-56.3 168.81C2230 518.72 2289.53 600 2378.13 600c51.83 0 93.53-28.4 112.62-76.3V588h166.65v-6.66zm159.29-505.33c0-37.76-28.47-66.24-66.24-66.24-37.59 0-67 29.1-67 66.24s29.44 66.24 67 66.24c37.77 0 66.24-28.48 66.24-66.24m43.84 505.33c-30.57-7.23-46.09-18-46.09-57h-.13V166.65l-166.66 47.85v6.5l1 .09c36.06 3.21 45.93 15.63 45.93 57.77V588h166.8v-6.66zm427.05 0c-30.57-7.23-46.09-18-46.09-57V166.65L3082 212.92v6.52l.94.1c29.48 3.1 38 16.23 38 58.56v226c-9.83 19.45-28.27 31-50.61 31.78-36.23 0-56.18-24.47-56.18-68.9V166.66l-166.66 47.85V221l1 .09c36.06 3.2 45.94 15.62 45.94 57.77v191.27a214.48 214.48 0 0 0 3.47 39.82l3 13.05c14.11 50.56 51.08 77 109 77 49.06 0 92.06-30.37 111-77.89v66h166.66v-6.66zM3934.2 588v-6.67l-.81-.19c-33.17-7.65-46.09-22.07-46.09-51.43v-243.2c0-75.83-42.59-121.09-113.93-121.09-52 0-95.85 30.05-112.73 76.86-13.41-49.6-52-76.86-109.06-76.86-50.12 0-89.4 26.45-106.25 71.13v-69.87l-166.66 45.89v6.54l1 .09c35.63 3.16 45.93 15.94 45.93 57V588h155.5v-6.66l-.82-.2c-26.46-6.22-35-17.56-35-46.66V255.72c7-16.35 21.11-35.72 49-35.72 34.64 0 52.2 24 52.2 71.28V588h155.54v-6.66l-.82-.2c-26.46-6.22-35-17.56-35-46.66v-248a160.45 160.45 0 0 0-2.2-27.68c7.42-17.77 22.34-38.8 51.37-38.8 35.13 0 52.2 23.31 52.2 71.28V588z">
+                        </path>
+                    </svg>
+                    <ul class="menu">
+                        <li><span> <i class='fas fa-search' style='font-size: 25px;'></i></span></li>
+                        <li><span><i class='far fa-bookmark' style='font-size:25px'></i></span></li>
+                        <li><span><i class='far fa-bell' style='font-size:25px'></i></span></li>
+                        <li><button>Resume membership</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+        </div>
+    </header>
+    <main>
+        <section class="trending">
+            <div class="container">
+                <div class="trending-title-section flex align-center">
+                    <img src="./assets/imgs/trending.svg" alt="trending icon">
+                    <h4 class="trending-title">
+                        Trending on medium
+                    </h4>
+                </div>
+        </section>
+        <section class="wall">
+            <div class="container">
+                <div class="grid">
+                    <div class="col-main">
+                        <div class="card">
+                            <div class="content">
+                                <div class="avatar-title flex align-center">
+                                    <img src="compito 1/1.jpeg"
+                                        alt="Robert Roy Britt" width="20" height="20">
+                                    <h4>Kolby Sisk in Udacity Eng & Data</h4>
+                                </div>
+
+                                <h3>React state management in 2022 - Return of the Redux</h3>
+                                <p>At the beginning of the year if you told me I'd be publishing a recommendation to use Redux I would have laughed in your face. Yet her</p>
+                                <div class="bottom-info">
+                                    <div class="flex align-center">
+                                        <span>Dec 3</span>
+                                        <span class="dot">·</span>
+                                        <span>4 min read</span>
+                                        <span class="dot">·</span>
+                                        <span class="badge">React</span>
+                                        <span class="dot">·</span>
+                                        <span>Popular on Medium</span>
+                                            <div class="icon">
+                                                <img src="file:///C:/Users/marina/Desktop/wd/compito%201/bookmark.svg" alt="bookmark">
+                                                <i class="fa fa-ellipsis-h" style="font-size:20px"></i>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="compito 1/1.jpeg"
+                                alt="React state management in 2022">
+                        </div>
+
+                        <div class="card">
+                            <div class="content">
+                                <div class="avatar-title flex align-center">
+                                    <img src="compito 1/2.jpeg"
+                                        alt="Taru Anniina Liikanen" width="20" height="20">
+                                    <h4>Navoda Nilakshi</h4>
+                                </div>
+
+                                <h3>How To Sanitize Your Express App Against MongoDB Injection & Cross-Site Scripting.</h3>
+                                <p>Easiest way to sanitize your express app</p>
+                                <div class="bottom-info">
+                                    <div class="flex align-center">
+                                        <span>Dec 19</span>
+                                        <span class="dot">·</span>
+                                        <span>6 min read</span>
+                                        <span class="dot">·</span>
+                                        <span class="badge">Web Development</span>
+                                        <span class="dot">·</span>
+                                        <span>Based on your reading history</span>
+                                        <div class="icon">
+                                            <img src="file:///C:/Users/marina/Desktop/wd/compito%201/bookmark.svg" alt="bookmark">
+                                            <i class="fa fa-ellipsis-h" style="font-size:20px"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="compito 1/2.jpeg"
+                                alt="Easiest way to sanitize your express app">
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="avatar-title flex align-center">
+                                    <img src="compito 1/3.jpeg"
+                                        alt="David Rodenas, Ph. D." width="20" height="20">
+                                    <h4>Divyesh Bhalani in DhiWise</h4>
+                                </div>
+
+                                <h3>React 18 new features and updates</h3>
+                                <p>Know about some cool features and updates of React 18.</p>
+                                <div class="bottom-info">
+                                    <div class="flex align-center">
+                                        <span>Nov 24</span>
+                                        <span class="dot">·</span>
+                                        <span>4 min read</span>
+                                        <span class="dot">·</span>
+                                        <span class="badge">Reactjs</span>
+                                        <span class="dot">·</span>
+                                        <span>Popular on Medium</span>
+                                        <div class="icon">
+                                            <img src="file:///C:/Users/marina/Desktop/wd/compito%201/bookmark.svg" alt="bookmark">
+                                            <i class="fa fa-ellipsis-h" style="font-size:20px"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="compito 1/2.jpeg"
+                                alt="React 18">
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="avatar-title flex align-center">
+                                    <img src="compito 1/4.jpeg"
+                                        alt="Microsoft Design" width="20" height="20">
+                                    <h4>Vsevolod Ulyanovich in Fively Blog</h4>
+                                </div>
+
+                                <h3>15 Best Web App Ideas for a Startup in 2021</h3>
+                                <p>15 Startup Ideas and Technologies That Could Make You a Milionaire</p>
+                                <div class="bottom-info">
+                                    <div class="flex align-center">
+                                        <span>Oct 29</span>
+                                        <span class="dot">·</span>
+                                        <span>6 min read</span>
+                                        <span class="dot">·</span>
+                                        <span class="badge">Web Development</span>
+                                        <span class="dot">·</span>
+                                        <span>Popular on Medium</span>
+                                        <div class="icon">
+                                            <img src="file:///C:/Users/marina/Desktop/wd/compito%201/bookmark.svg" alt="bookmark">
+                                            <i class="fa fa-ellipsis-h" style="font-size:20px"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="compito 1/4.jpeg"
+                                alt="React 18">
+                        </div>
+
+                        <div class="card">
+                            <div class="content">
+                                <div class="avatar-title flex align-center">
+                                    <img src="compito 1/5.jpeg"
+                                        alt="Scott H. Young" width="20" height="20">
+                                    <h4>Kolby Sisk in Udacity Eng & Data</h4>
+                                </div>
+
+                                <h3>Understanding re-rendering and memoization in React</h3>
+                                <p>The following are quick tips to increase performance in your React application by undertanding re-rendering and memoization. To better</p>
+                                <div class="bottom-info">
+                                    <div class="flex align-center">
+                                        <span>Dec 6</span>
+                                        <span class="dot">·</span>
+                                        <span>4 min read</span>
+                                        <span class="dot">·</span>
+                                        <span class="badge">React</span>
+                                        <span class="dot">·</span>
+                                        <span>Popular on Medium</span>
+                                        <div class="icon">
+                                            <img src="file:///C:/Users/marina/Desktop/wd/compito%201/bookmark.svg" alt="bookmark">
+                                            <i class="fa fa-ellipsis-h" style="font-size:20px"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="compito 1/5.jpeg" 
+                                alt="Understanding re-rendering and memoization in React">
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="avatar-title flex align-center">
+                                    <img src="compito 1/6.jpeg"
+                                        alt="Paul A. DeStefano" width="20" height="20" style="border-radius: 3px">
+                                    <h4>
+                                        Arun Kashyap in Nerd For Tech<span class="in">in</span> Human Parts</h4>
+                                </div>
+
+                                <h3>Why Get Rid Of Promises To Fetch Data In React?</h3>
+                                <p>How You Can Make Your Code Well Structured !!</p>
+                                <div class="bottom-info">
+                                    <div class="flex align-center">
+                                        <span>Jul 5</span>
+                                        <span class="dot">·</span>
+                                        <span>5 min read</span>
+                                        <span class="dot">·</span>
+                                        <span class="badge">React</span>
+                                        <span class="dot">·</span>
+                                        <span>Selected for you</span>
+                                        <div class="icon">
+                                            <img src="file:///C:/Users/marina/Desktop/wd/compito%201/bookmark.svg" alt="bookmark">
+                                            <i class="fa fa-ellipsis-h" style="font-size:20px"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="compito 1/6.jpeg"
+                                alt="How you can make your code well structured">
+                        </div>
+
+
+                    </div>
+
+                    
+                     <aside>
+
+                    <div>
+                        <div class="image-container">
+                            <img src="compito 1/logo medium.jpg" alt="logo medium" class="image-aside">
+                            <span class="plus">+</span>
+                            <img src="compito 1/logo twitter.jpg" alt="logo twitter" class="image-aside">
+                          </div>
+                          <div class="two-lines">
+                        <p class="line">Discover Medium writers you already</p>
+                        <p class="line">follow on Twitter</p>
+                          </div>
+                        <div>
+                            <button type="button" class="image-button">
+                                <img src="compito 1/logo twitter.jpg" alt="logo twitter">
+                                        Connect to Twitter
+                            </button>
+                        </div>
+                        <div>
+                            <p class="underlined-text">Maybe Later</p>
+                        </div>
+                        <hr>
+
+                        <div> 
+                            <h3>Recommended Topics</h3>
+                        </div>
+                    </di>
+
+                        <div class="categories">
+                            <button class="special-button">Technology</button>
+                            <button class="special-button">Money</button>
+                            <button class="special-button">Bbusiness</button>
+                            <button class="special-button">Productivity</button>
+                            <button class="special-button">Psychology</button>
+                            <button class="special-button">Mindfulness</button>
+                            <button class="special-button">Art</button>
+                        </div>
+                        <div>
+                            <h3>Who to Follow</h3>
+                        </div>
+                            <div class="list">
+                                <div>
+                                    <div class="profile-section">
+                                        <div class="profile-info">
+                                            <img src="avatar.jpg" alt="Avatar" class="profile-avatar">
+                                                <div class="profile-details">
+                                                     <h3 class="profile-name">Lessig</h3>
+                                                     <p class="profile-description">Law professor, activist.</p>
+                                                </div>
+                                        </div>
+                                        <button class="follow-button">Follow</button>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div>
+                                    <div class="profile-section">
+                                        <div class="profile-info">
+                                            <img src="avatar.jpg" alt="Avatar" class="profile-avatar">
+                                                <div class="profile-details">
+                                                     <h3 class="profile-name">David Wineberg</h3>
+                                                     <p class="profile-description">Author, The Straight Dope, or What I learned from my first..</Datag>.</p>
+                                                </div>
+                                        </div>
+                                        <button class="follow-button">Follow</button>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <div>
+                                    <div class="profile-section">
+                                        <div class="profile-info">
+                                            <img src="avatar.jpg" alt="Avatar" class="profile-avatar">
+                                                <div class="profile-details">
+                                                     <h3 class="profile-name">Bonsu Thompson</h3>
+                                                     <p class="profile-description">Bonsu Thompson is a writer, producer, Brooklynite and 2009...</p>
+                                                </div>
+                                        </div>
+                                        <button class="follow-button">Follow</button>
+                                  </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h3>Recently saved</h3>
+                                <div class="recently">
+                                    <img src="compito 1/5.jpeg"
+                                        alt="Paul A. DeStefano" width="20" height="20" style="border-radius: 3px">
+                                    <h3>
+                                        Eva Keiffenheim in Age of Awareness<span class="in">in</span> Human Parts</h3>
+                                </div>
+                                <p>The Feynman Technique Wil Make You Remember What You Red</p>
+                                <div class="flex align-center">
+                                    <spa>Oct 2, 2020</span>
+                                    <span class="dot">·</span>
+                                    <span>6 min read</span>
+                                    <img src="file:///C:/Users/marina/Desktop/wd/compito%201/star.svg" alt="star">
+                                </div>
+                                <div>
+                                    <h3>Recently saved</h3>
+                                    <div class="recently">
+                                        <img src="compito 1/5.jpeg"
+                                            alt="Paul A. DeStefano" width="20" height="20" style="border-radius: 3px">
+                                        <h3>
+                                            chrissy teigen<span class="in">in</span> Human Parts</h3>
+                                    </div>
+                                    <p>Hi.</p>
+                                    <div class="flex align-center">
+                                        <spa>Oct 27, 2020</span>
+                                        <span class="dot">·</span>
+                                        <span>8 min read</span>
+                                    </div>
+                                <p class="green-underlined">See all (3)</p>    
+
+                            </div>
+                            
+                        <footer>
+                            <ul>
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Status</a></li>
+                                <li><a href="#">Writers</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">About</a></li>
+                            </ul>
+                        </footer>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>        
+</body>
+</html>
